@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "matematicas.h"
+
+int main(){
+ int x,y,r,opc;
+  double numero[100];
+  
+do{
+opc=op();
+
+switch(opc){
+  case 1:
+    potencia( x, y);
+  break;
+
+    case 2:
+  multiplicatoria(numero);
+  break;
+
+  case 3:
+  sumatoria(numero);
+  break;
+
+
+
+    
+  case 4:
+printf("saliendo............\n");
+  break;
+  default:
+  printf("ingrese un valor valido.\n");
+}
+
+
+
+
+
+
+
+  
+
+}while(opc!=4);
+
+  return 0;
+}
